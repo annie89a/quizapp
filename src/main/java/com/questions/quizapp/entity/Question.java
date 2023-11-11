@@ -26,6 +26,9 @@ public class Question {
     private String rightAnswer;
     private String difficultylevel;
 
-
+    // Default constructor
+    public Question() {
+        // Empty constructor is needed by Hibernate
+    }
 
 }
