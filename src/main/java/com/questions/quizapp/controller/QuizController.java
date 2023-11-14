@@ -24,7 +24,7 @@ public class QuizController {
     public ResponseEntity<List<QuestionWrapper>> getQuizQuestions(@PathVariable Integer id)
     {
         //wrapper class; have al the column except answer
-        return quizService.getQuizQuestions(id);
+        return quizService.getQuizQuestionsByID(id);
     }
 
     @PostMapping("submit/{id}")

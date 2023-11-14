@@ -37,7 +37,7 @@ public class QuizService {
 
     }
 
-    public ResponseEntity<List<QuestionWrapper>> getQuizQuestions(Integer id) {
+    public ResponseEntity<List<QuestionWrapper>> getQuizQuestionsByID(Integer id) {
         Optional<Quiz> quiz = quizDao.findById(id);
         List<Question> questionsFromDB = quiz.get().getQuestions();
 
