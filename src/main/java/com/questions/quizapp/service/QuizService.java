@@ -2,10 +2,10 @@ package com.questions.quizapp.service;
 
 import com.questions.quizapp.repositories.QuestionDao;
 import com.questions.quizapp.repositories.QuizDao;
-import com.questions.quizapp.entity.Question;
-import com.questions.quizapp.entity.QuestionWrapper;
-import com.questions.quizapp.entity.Quiz;
-import com.questions.quizapp.entity.Response;
+import com.questions.quizapp.model.Question;
+import com.questions.quizapp.model.QuestionWrapper;
+import com.questions.quizapp.model.Quiz;
+import com.questions.quizapp.model.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
