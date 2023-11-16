@@ -3,7 +3,7 @@ package com.questions.quizapp.model;
 import lombok.Data;
 
 @Data //dont need to define getters and setters
-public class QuestionWrapper {
+public class QuestionWrapper { //note that there is no answer here
     private Integer id;
     private String questionTitle; //the ORM framework, JPA will take care of the casing
     private String option1;
